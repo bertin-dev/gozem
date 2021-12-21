@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/bar_layout.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/btn_rounded.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/circle.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/circle_border.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/edittextborder.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/grad.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/drawable/ic_user.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/layout/activity_login.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/layout/activity_register.xml" value="0.21" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/layout/alert_dialog.xml" value="0.18659420289855072" />
+        <entry key="..\:/Users/Bertin-dev/AndroidStudioProjects/Gozem_test/app/src/main/res/layout/bar_layout.xml" value="0.18659420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

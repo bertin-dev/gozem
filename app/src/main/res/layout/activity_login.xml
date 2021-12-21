@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/login"
+    android:background="@color/white"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/authWindows"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/titleLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/authentification"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:textColor="@color/green"
+                android:layout_marginTop="10pt"
+                android:textSize="25sp"
+                android:gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:focusable="true"
+                android:layout_marginTop="30dp"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="@string/email"
+                    android:textColorHint="@color/green"
+                    app:errorEnabled="true"
+                    app:counterEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tie_email"
+                        android:textColor="@color/green"
+                        android:drawableEnd="@drawable/ic_email_24"
+                        android:drawableRight="@drawable/ic_email_24"
+                        android:layout_gravity="center"
+                        android:maxLines="1"
+                        android:imeOptions="actionNext"
+                        android:maxLength="50"
+                        android:inputType="textEmailAddress"
+                        android:background="@drawable/edittextborder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/til_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/green"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:errorEnabled="true"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="5"
+                    app:passwordToggleTint="@color/green"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tie_password"
+                        android:textColor="@color/green"
+                        android:layout_gravity="center"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:background="@drawable/edittextborder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="5"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btnlogin"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        android:shadowDx="@android:integer/config_longAnimTime"
+                        android:background="@drawable/btn_rounded"
+                        android:text="@string/connexion" />
+
+                    <Button
+                        android:id="@+id/btnRegister"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:textStyle="bold"
+                        android:shadowDx="@android:integer/config_longAnimTime"
+                        android:background="@drawable/btn_rounded"
+                        android:text="@string/souscription" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

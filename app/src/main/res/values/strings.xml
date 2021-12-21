@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Gozem_test</string>
+    <string name="authentification">Authentification</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="connexion">connexion</string>
+    <string name="souscription">souscription</string>
+    <string name="name">Full Name</string>
+    <string name="valider">Valider</string>
+    <string name="encours">Encours…</string>
+
+    <string name="insererEmail">Veuillez inserer votre adresse email</string>
+    <string name="insererFullName">Veuillez inserer votre Nom complet</string>
+    <string name="fullNameShort">Votre Nom complèt est court</string>
+    <string name="emailCourt">Votre address email est court</string>
+    <string name="invalidCararatere">contient un ou plusieurs caractères invalides</string>
+    <string name="verifierEmail">Votre email contient moin de 3 lettres.</string>
+    <string name="erreurSurvenue">Une erreur est survenue lors de l\'envoi des images.</string>
+    <string name="erreurSurvenue1">Une erreur est survenue.</string>
+    <string name="erreurSurvenue2">Une erreur est survenue lors de la suppression.</string>
+    <string name="insererPassword">Veuillez inserer le mot de passe</string>
+    <string name="passwordCourt">Votre mot de passe est court</string>
+    <string name="information">Information</string>
+    <string name="descriptionImgAlertDialog">Resultat d\'une requête</string>
+    <string name="stautDialogAlert">Réusie</string>
+    <string name="fillForm">Remplir le formulaire</string>
+    <string name="error_msg">email ou mot de passe incorrect</string>
+    <string name="success_message">Opération éffectué avec succès.</string>
+    <string name="error_email">cette adresse email existe déjà</string>
+
+    <string name="google_maps_key"
+        templateMergeStrategy="preserve" translatable="false">AIzaSyB5-3lYNbixdrZF4ZH9eJbrZkrRjEp_XO8</string>
+    <string name="position">Votre position</string>
+    <string name="autre_position">Autre position</string>
+    <string name="permission">Permission refusé</string>
+</resources>
